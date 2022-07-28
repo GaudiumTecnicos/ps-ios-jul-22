@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FFD78F827B1AB9600D2D44B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD78F727B1AB9600D2D44B /* AppDelegate.m */; };
+		6FFD78FB27B1AB9600D2D44B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD78FA27B1AB9600D2D44B /* SceneDelegate.m */; };
+		6FFD78FE27B1AB9600D2D44B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD78FD27B1AB9600D2D44B /* ViewController.m */; };
+		6FFD790127B1AB9600D2D44B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD78FF27B1AB9600D2D44B /* Main.storyboard */; };
+		6FFD790327B1AB9800D2D44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD790227B1AB9800D2D44B /* Assets.xcassets */; };
+		6FFD790627B1AB9800D2D44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD790427B1AB9800D2D44B /* LaunchScreen.storyboard */; };
+		6FFD790927B1AB9800D2D44B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD790827B1AB9800D2D44B /* main.m */; };
+		9D78D547B8D5F478DF3A58DC /* Pods_EntreGaudium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827051D29E112CC1797D62D1 /* Pods_EntreGaudium.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220CCEDA82A33DCF6025EC44 /* Pods-EntreGaudium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntreGaudium.release.xcconfig"; path = "Target Support Files/Pods-EntreGaudium/Pods-EntreGaudium.release.xcconfig"; sourceTree = "<group>"; };
+		6FFD78F327B1AB9600D2D44B /* EntreGaudium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EntreGaudium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFD78F627B1AB9600D2D44B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FFD78F727B1AB9600D2D44B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FFD78F927B1AB9600D2D44B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6FFD78FA27B1AB9600D2D44B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6FFD78FC27B1AB9600D2D44B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FFD78FD27B1AB9600D2D44B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FFD790027B1AB9600D2D44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FFD790227B1AB9800D2D44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FFD790527B1AB9800D2D44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FFD790727B1AB9800D2D44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFD790827B1AB9800D2D44B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		827051D29E112CC1797D62D1 /* Pods_EntreGaudium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EntreGaudium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D7273B9CED9EE211D12507 /* Pods-EntreGaudium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntreGaudium.debug.xcconfig"; path = "Target Support Files/Pods-EntreGaudium/Pods-EntreGaudium.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FFD78F027B1AB9600D2D44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D78D547B8D5F478DF3A58DC /* Pods_EntreGaudium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA25A3A9B2FAEC466903006 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0D7273B9CED9EE211D12507 /* Pods-EntreGaudium.debug.xcconfig */,
+				220CCEDA82A33DCF6025EC44 /* Pods-EntreGaudium.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FFD78EA27B1AB9600D2D44B = {
+			isa = PBXGroup;
+			children = (
+				6FFD78F527B1AB9600D2D44B /* EntreGaudium */,
+				6FFD78F427B1AB9600D2D44B /* Products */,
+				0DA25A3A9B2FAEC466903006 /* Pods */,
+				F29BD86B3626E12E802DE8D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FFD78F427B1AB9600D2D44B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FFD78F327B1AB9600D2D44B /* EntreGaudium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FFD78F527B1AB9600D2D44B /* EntreGaudium */ = {
+			isa = PBXGroup;
+			children = (
+				6FFD78F627B1AB9600D2D44B /* AppDelegate.h */,
+				6FFD78F727B1AB9600D2D44B /* AppDelegate.m */,
+				6FFD78F927B1AB9600D2D44B /* SceneDelegate.h */,
+				6FFD78FA27B1AB9600D2D44B /* SceneDelegate.m */,
+				6FFD78FC27B1AB9600D2D44B /* ViewController.h */,
+				6FFD78FD27B1AB9600D2D44B /* ViewController.m */,
+				6FFD78FF27B1AB9600D2D44B /* Main.storyboard */,
+				6FFD790227B1AB9800D2D44B /* Assets.xcassets */,
+				6FFD790427B1AB9800D2D44B /* LaunchScreen.storyboard */,
+				6FFD790727B1AB9800D2D44B /* Info.plist */,
+				6FFD790827B1AB9800D2D44B /* main.m */,
+			);
+			path = EntreGaudium;
+			sourceTree = "<group>";
+		};
+		F29BD86B3626E12E802DE8D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827051D29E112CC1797D62D1 /* Pods_EntreGaudium.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FFD78F227B1AB9600D2D44B /* EntreGaudium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFD790C27B1AB9800D2D44B /* Build configuration list for PBXNativeTarget "EntreGaudium" */;
+			buildPhases = (
+				78C4EDDBA5EDE16B767C988C /* [CP] Check Pods Manifest.lock */,
+				6FFD78EF27B1AB9600D2D44B /* Sources */,
+				6FFD78F027B1AB9600D2D44B /* Frameworks */,
+				6FFD78F127B1AB9600D2D44B /* Resources */,
+				FAA15385B17AA69F60814D1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EntreGaudium;
+			productName = EntreGaudium;
+			productReference = 6FFD78F327B1AB9600D2D44B /* EntreGaudium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FFD78EB27B1AB9600D2D44B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6FFD78F227B1AB9600D2D44B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FFD78EE27B1AB9600D2D44B /* Build configuration list for PBXProject "EntreGaudium" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FFD78EA27B1AB9600D2D44B;
+			productRefGroup = 6FFD78F427B1AB9600D2D44B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFD78F227B1AB9600D2D44B /* EntreGaudium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FFD78F127B1AB9600D2D44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFD790627B1AB9800D2D44B /* LaunchScreen.storyboard in Resources */,
+				6FFD790327B1AB9800D2D44B /* Assets.xcassets in Resources */,
+				6FFD790127B1AB9600D2D44B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78C4EDDBA5EDE16B767C988C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EntreGaudium-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA15385B17AA69F60814D1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntreGaudium/Pods-EntreGaudium-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntreGaudium/Pods-EntreGaudium-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EntreGaudium/Pods-EntreGaudium-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FFD78EF27B1AB9600D2D44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFD78FE27B1AB9600D2D44B /* ViewController.m in Sources */,
+				6FFD78F827B1AB9600D2D44B /* AppDelegate.m in Sources */,
+				6FFD790927B1AB9800D2D44B /* main.m in Sources */,
+				6FFD78FB27B1AB9600D2D44B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FFD78FF27B1AB9600D2D44B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFD790027B1AB9600D2D44B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FFD790427B1AB9800D2D44B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFD790527B1AB9800D2D44B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FFD790A27B1AB9800D2D44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FFD790B27B1AB9800D2D44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FFD790D27B1AB9800D2D44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D7273B9CED9EE211D12507 /* Pods-EntreGaudium.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3HSNXMB36;
+				INFOPLIST_FILE = EntreGaudium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gaudium.entregaudium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6FFD790E27B1AB9800D2D44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220CCEDA82A33DCF6025EC44 /* Pods-EntreGaudium.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3HSNXMB36;
+				INFOPLIST_FILE = EntreGaudium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gaudium.entregaudium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FFD78EE27B1AB9600D2D44B /* Build configuration list for PBXProject "EntreGaudium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFD790A27B1AB9800D2D44B /* Debug */,
+				6FFD790B27B1AB9800D2D44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFD790C27B1AB9800D2D44B /* Build configuration list for PBXNativeTarget "EntreGaudium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFD790D27B1AB9800D2D44B /* Debug */,
+				6FFD790E27B1AB9800D2D44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FFD78EB27B1AB9600D2D44B /* Project object */;
+}
